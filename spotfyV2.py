@@ -4,7 +4,7 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import random
 
 # Configura las credenciales de Spotify
-sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="6c84ca1dd42f4ba2bfe3045f53a182bb", client_secret="61b8b55dd1f3423990ced6dd19c1a9d3"))
+sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="Your Token Client", client_secret="Your Client Secret ID"))
 
 # Obtén una canción aleatoria con su URL
 def get_random_song():
@@ -30,4 +30,4 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 client = MyClient(intents=intents)
-client.run('MTI4NDY5NDY2NzA4NjEzOTQ3Mw.GzgQHZ.HzQU1e_wLBmgC-LCMTF_38rSguqqIajnYYCILg')
+client.run('Your Client Discord ID ')
